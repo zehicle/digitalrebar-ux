@@ -99,7 +99,6 @@ dialog controller
         'description': locals.description1,
         'profiles': locals.profiles1
       };
-      console.log(payload);
       api('/api/v2/nodes/' + locals.id, {
         method: 'PUT',
         data: payload
